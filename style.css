@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Noto Sans', sans-serif;
+  src:url('https://fonts.googleapis.com/css?family=Noto+Sans');
+}
+
+body {
+  color: grey;
+  background-color: white;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+* {
+  list-style-type: none;
+}
+
+.secondright {
+  display: flex;
+  flex-direction: row;
+  float:right;
+  justify-content: flex-end;
+}
+
+span {
+   display: inline-flex;
+   align-self: flex-start;
+}
+
+span li a {
+  color: grey;
+  text-decoration: none;
+}
+span li a:hover {
+  text-decoration: underline;
+}
+span li a:visited {
+  text-decoration: none;
+}
+
+main {
+width: auto;
+height: 80%;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+.thirdleft{
+  float: left;
+  display: inline-flex;
+  align-self: flex-start;
+
+}
+.forthnone {
+  flex-grow: 3;
+}
+.fifthright {
+  float: right;
+  display: inline-flex;
+  align-self: flex-start;
+
+}
